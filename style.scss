@@ -371,6 +371,7 @@ a {
     margin: 4rem 1.6rem;
     @media (max-width: 475px) {
       width: 100%;
+      margin: 4rem 0;
     }
   }
   &__singleItemImgContainer {
@@ -401,14 +402,14 @@ a {
   @media (max-width: 992px) {
     padding: 7rem 3.2rem;
   }
-  @media (max-width: 992px) {
+  @media (max-width: 475px) {
     padding: 7rem 1.6rem;
   }
   &__header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6.4rem;
-    @media (max-width: 992px) {
+    @media (max-width: 475px) {
       flex-direction: column;
     }
   }
@@ -416,6 +417,9 @@ a {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 4.8rem;
+    @media (max-width: 992px) {
+      font-size: 2.4rem;
+    }
   }
   &__button {
     font-size: 1.6rem;
@@ -426,7 +430,7 @@ a {
     color: white;
     border: none;
     @media (max-width: 992px) {
-      width: 50%;
+      width: 40%;
     }
   }
   &__container {
@@ -438,7 +442,7 @@ a {
         display: none;
       }
     }
-    @media (max-width: 992px) {
+    @media (max-width: 475px) {
       flex-direction: column;
       :nth-child(3) {
         display: block;
@@ -451,7 +455,7 @@ a {
     @media (max-width: 992px) {
       width: 40%;
     }
-    @media (max-width: 992px) {
+    @media (max-width: 475px) {
       width: 100%;
       margin: 3.2rem 0;
     }
